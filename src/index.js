@@ -48,15 +48,15 @@ const writeAllBoilerplates = (loc, packageName) => {
   writeFile(path.normalize(loc + fileStruc.pkg), packageJSON, true);
 };
 
-const createTs = ({ packagePath, packageName }) => {
+const tsPkg = ({ packagePath, packageName }) => {
   writeAllBoilerplates(packagePath, packageName);
 };
 
-export default createTs;
+export default tsPkg;
 
 // const p = process.cwd() + "/temp2/";
 //
-// createTs({
+// tsPkg({
 //   packagePath: p,
 //   packageName: "@hello/text-qw",
 // });
