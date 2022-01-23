@@ -1,0 +1,32 @@
+{
+  "name": "ts-pkg",
+  "version": "0.1.0",
+  "description": "new package starter for typescript",
+  "keywords": ["npm init", "bolerplate", "starter", "typescript", "lerna", "create"],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --out-dir dist ./src"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rake7h/create-ts.git"
+  },
+  "author": "hi@rake7h.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rake7h/create-ts/issues"
+  },
+  "homepage": "https://github.com/rake7h/create-ts#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "execa": "^6.0.0"
+  }
+}
