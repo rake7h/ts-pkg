@@ -1,8 +1,15 @@
 {
-  "name": "ts-pkg",
+  "name": "@rake7h/ts-pkg",
   "version": "0.1.0",
   "description": "new package starter for typescript",
-  "keywords": ["npm init", "bolerplate", "starter", "typescript", "lerna", "create"],
+  "keywords": [
+    "npm init",
+    "bolerplate",
+    "starter",
+    "typescript",
+    "lerna",
+    "create"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "babel --out-dir dist ./src"
@@ -27,6 +34,7 @@
   },
   "dependencies": {
     "dedent": "^0.7.0",
-    "execa": "^6.0.0"
+    "execa": "^6.0.0",
+    "npm-package-arg": "^8.1.5"
   }
 }
