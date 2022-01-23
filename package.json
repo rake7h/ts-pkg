@@ -19,14 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rake7h/create-ts.git"
+    "url": "git+https://github.com/rake7h/ts-pkg.git"
   },
   "author": "hi@rake7h.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rake7h/create-ts/issues"
+    "url": "https://github.com/rake7h/ts-pkg/issues"
   },
-  "homepage": "https://github.com/rake7h/create-ts#readme",
+  "homepage": "https://github.com/rake7h/ts-pkg#readme",
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.10",
